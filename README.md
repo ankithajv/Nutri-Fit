@@ -1,11 +1,11 @@
-# NutriFit 🥗⚡
+# NutriFit
 > An Intelligent, Two-Tier AI Nutrition Tracking & Dietary Coaching Platform
 
 NutriFit bridges the gap between natural language meal logging and rigorous, clinically grounded nutrition intelligence. Built with **FastAPI**, **React 18**, **TypeScript**, and **Google Gemini Flash**, NutriFit uses a unique **Two-Tier Architecture**: deterministic database arithmetic guarantees 100% mathematical accuracy for macros and calories, while the Google Gemini Large Language Model acts as a cognitive clinical dietitian providing actionable meal feedback, glycemic stability insights, and practical culinary swaps.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Natural Language Meal Logging**: Type meals naturally in Indian English (e.g., *"2 whole wheat chapatis, 1 katori moong dal tadka, and a small bowl of curd"*).
 - **Two-Tier Verification Engine**:
@@ -17,7 +17,7 @@ NutriFit bridges the gap between natural language meal logging and rigorous, cli
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Input (Natural Language)
@@ -43,7 +43,7 @@ User Input (Natural Language)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 NutriFit/
@@ -86,8 +86,8 @@ NutriFit/
 
 ### Prerequisites
 
-- **Python 3.10+**
-- **Node.js 18+** & npm
+- **Python**
+- **Node.js** & npm
 - **MySQL 8.0+**
 - **Google Gemini API Key** ([Google AI Studio](https://aistudio.google.com/))
 
@@ -134,8 +134,7 @@ NutriFit/
    ```bash
    python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
    ```
-   API Documentation is available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
-
+   
 ---
 
 ### Frontend Setup
@@ -154,11 +153,9 @@ NutriFit/
    ```bash
    npm run dev
    ```
-   Access the web application at: [http://127.0.0.1:5173](http://127.0.0.1:5173).
-
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 To run the backend test suite:
 ```bash
@@ -167,7 +164,3 @@ pytest tests/ -v
 ```
 
 ---
-
-## 🛡️ License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
