@@ -1,0 +1,345 @@
+/* NutriFit Design System — globals.css
+   Clean, modern AI-powered nutrition analytics.
+   Palette: Pure white (#FFFFFF), Charcoal (#202020), Orange (#F28C38), Fresh Green (#547A46).
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design Tokens ─── */
+:root {
+  /* Backgrounds & surfaces */
+  --cream-100: #FFFFFF;
+  --cream-200: #F8F8F5;
+  --card:       #FFFFFF;
+  --card-soft:  #F8F8F5;
+  --line:       #F0F0F0;
+
+  /* Brand */
+  --olive-500:    #547A46;
+  --olive-700:    #2E4A24;
+  --olive-100:    #EAF2E5;
+  --orange-500:   #F28C38;
+  --orange-100:   #FFF1E5;
+  --dark-900:     #202020;
+  --dark-800:     #333333;
+  --lavender-200: #82A874;
+
+  /* Text */
+  --ink:      #202020;
+  --ink-2:    #777777;
+  --ink-3:    #9CA3AF;
+  --on-dark:  #FFFFFF;
+  --on-dark-2: #D1D5DB;
+
+  /* Status */
+  --good:        #547A46;
+  --good-bg:     #EAF2E5;
+  --caution:     #D97706;
+  --caution-bg:  #FFF1E5;
+  --alert:       #DC2626;
+  --alert-bg:    #FEE2E2;
+
+  /* Charts */
+  --chart-protein: #547A46;
+  --chart-carbs:   #F28C38;
+  --chart-fat:     #82A874;
+  --chart-empty:   #F0F0F0;
+  --chart-track-dark: #333333;
+
+  /* Shape */
+  --radius-card:   16px;
+  --radius-inner:  12px;
+  --radius-pill:   999px;
+  --radius-sm:     8px;
+
+  /* Shadow */
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.04);
+
+  /* Animation */
+  --ease-natural:  cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-micro:     120ms;
+  --dur-std:       200ms;
+  --dur-emphasis:  400ms;
+
+  /* ── Legacy compatibility aliases (map to new palette) ── */
+  --color-bg:          var(--cream-100);
+  --color-surface:     var(--card);
+  --color-surface-soft: var(--card-soft);
+  --color-border:      var(--line);
+  --color-text:        var(--ink);
+  --color-text-2:      var(--ink-2);
+  --color-text-3:      var(--ink-3);
+  --color-accent:      var(--olive-700);
+  --color-accent-dark: var(--olive-700);
+  --color-accent-light: var(--olive-100);
+  --color-text-muted:  var(--ink-2);
+  --color-warning:     var(--caution);
+  --color-danger:      var(--alert);
+  --color-success:     var(--good);
+  --color-good:        var(--good);
+  --color-good-bg:     var(--good-bg);
+  --color-caution:     var(--caution);
+  --color-caution-bg:  var(--caution-bg);
+  --color-alert:       var(--alert);
+  --color-alert-bg:    var(--alert-bg);
+  --ai-tint:           var(--dark-900);
+  --ai-border:         var(--dark-800);
+  --ai-glow:           rgba(51, 50, 30, 0.12);
+}
+
+/* ─── Base reset ─── */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream-100);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Typography ─── */
+
+/* Display: Welcome headline */
+.type-display {
+  font-family: 'Poppins', system-ui;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 768px) {
+  .type-display {
+    font-size: 56px;
+    line-height: 62px;
+  }
+}
+
+/* H1 page title */
+.type-h1 {
+  font-family: 'Poppins', system-ui;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+/* H2 section title */
+.type-h2 {
+  font-family: 'Poppins', system-ui;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+/* H3 card title */
+.type-h3 {
+  font-family: 'Poppins', system-ui;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+/* Body */
+.type-body {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/* Small */
+.type-small {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+
+/* Overline */
+.type-overline {
+  font-family: 'Inter', system-ui;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-2);
+}
+
+/* Big numbers: calories, scores */
+.type-number {
+  font-family: 'Poppins', system-ui;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.type-number-lg {
+  font-family: 'Poppins', system-ui;
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Focus ring ─── */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--orange-500);
+  outline-offset: 2px;
+  transition: outline var(--dur-micro) var(--ease-natural);
+}
+
+/* ─── Card base ─── */
+.card-base {
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--dur-std) var(--ease-natural),
+              box-shadow var(--dur-std) var(--ease-natural);
+}
+.card-base:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(51, 50, 30, 0.14);
+}
+
+/* ─── Entrance animations ─── */
+.fade-in {
+  animation: fadeIn var(--dur-std) var(--ease-natural) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card staggered entrance — 40ms stagger, 12px rise */
+.stagger-1 { animation: fadeIn var(--dur-std) var(--ease-natural) 0ms   forwards; opacity: 0; }
+.stagger-2 { animation: fadeIn var(--dur-std) var(--ease-natural) 40ms  forwards; opacity: 0; }
+.stagger-3 { animation: fadeIn var(--dur-std) var(--ease-natural) 80ms  forwards; opacity: 0; }
+.stagger-4 { animation: fadeIn var(--dur-std) var(--ease-natural) 120ms forwards; opacity: 0; }
+.stagger-5 { animation: fadeIn var(--dur-std) var(--ease-natural) 160ms forwards; opacity: 0; }
+.stagger-6 { animation: fadeIn var(--dur-std) var(--ease-natural) 200ms forwards; opacity: 0; }
+.stagger-7 { animation: fadeIn var(--dur-std) var(--ease-natural) 240ms forwards; opacity: 0; }
+.stagger-8 { animation: fadeIn var(--dur-std) var(--ease-natural) 280ms forwards; opacity: 0; }
+
+/* ─── Illustration float (Welcome page only) ─── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-4px); }
+}
+.anim-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* ─── SVG checkmark draw ─── */
+@keyframes drawCheck {
+  0%   { stroke-dashoffset: 24; }
+  100% { stroke-dashoffset: 0; }
+}
+.animate-draw-check {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  animation: drawCheck 300ms var(--ease-natural) forwards;
+}
+
+/* ─── AI panel ─── */
+.ai-panel-enter {
+  animation: fadeIn var(--dur-emphasis) var(--ease-natural) 100ms forwards;
+  opacity: 0;
+}
+
+/* ─── Word fade-in ─── */
+@keyframes wordFade {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.word-reveal {
+  display: inline-block;
+  animation: wordFade var(--dur-emphasis) var(--ease-natural) forwards;
+}
+
+/* ─── Skeleton shimmer (warm palette) ─── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--card-soft) 25%,
+    var(--line)      50%,
+    var(--card-soft) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+/* ─── Bar/ring count-up helper ─── */
+@keyframes barGrow {
+  from { transform: scaleY(0); }
+  to   { transform: scaleY(1); }
+}
+.anim-bar-grow {
+  transform-origin: bottom;
+  animation: barGrow 600ms var(--ease-natural) forwards;
+}
+
+/* ─── Today bar pulse ─── */
+@keyframes todayPulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.7; }
+}
+.anim-today-pulse {
+  animation: todayPulse 1.2s ease-in-out 1;
+}
+
+/* ─── Confetti (celebration) ─── */
+@keyframes confettiFly {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-60px) rotate(180deg); opacity: 0; }
+}
+.confetti-olive  { animation: confettiFly 1.2s var(--ease-natural) forwards; background: var(--olive-500); }
+.confetti-orange { animation: confettiFly 1.2s var(--ease-natural) 80ms forwards; background: var(--orange-500); }
+
+/* ─── Badge pop-in ─── */
+@keyframes badgePop {
+  0%   { transform: scale(0.5); opacity: 0; }
+  70%  { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.anim-badge-pop {
+  animation: badgePop 400ms var(--ease-natural) forwards;
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

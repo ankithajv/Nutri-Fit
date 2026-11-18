@@ -1,0 +1,65 @@
+day_offset,meal_type,food_name,quantity,unit,sugar_free,oil_free
+0,breakfast,idli,3,piece,false,false
+0,breakfast,sambar,1,cup,false,false
+0,breakfast,filter coffee,1,cup,false,false
+0,lunch,white rice,1,cup,false,false
+0,lunch,toor dal,1,katori,false,false
+0,lunch,potato sabzi,1,katori,false,false
+0,lunch,curd,1,katori,false,false
+0,snacks,apple,1,piece,false,false
+0,snacks,green tea,1,cup,false,false
+0,dinner,chapati,2,piece,false,false
+0,dinner,paneer bhurji,1,katori,false,false
+0,dinner,green salad,1,bowl,false,false
+1,breakfast,poha,1,bowl,false,false
+1,breakfast,chai with sugar,1,cup,false,false
+1,lunch,brown rice,1,cup,false,false
+1,lunch,rajma,1,bowl,false,false
+1,lunch,cucumber,1,cup,false,false
+1,snacks,almonds,1,handful,false,false
+1,dinner,roti,3,piece,false,false
+1,dinner,chicken curry,1,bowl,false,false
+1,dinner,curd,1,katori,false,false
+2,breakfast,oats,1,bowl,false,false
+2,breakfast,banana,1,piece,false,false
+2,lunch,chapati,2,piece,false,false
+2,lunch,moong dal,1,katori,false,false
+2,lunch,bhindi masala,1,katori,false,false
+2,snacks,buttermilk,1,glass,false,false
+2,dinner,white rice,1,cup,false,false
+2,dinner,fish curry,1,bowl,false,false
+2,dinner,green salad,1,bowl,false,false
+3,breakfast,masala dosa,1,piece,false,false
+3,breakfast,coconut chutney,2,tablespoon,false,false
+3,breakfast,filter coffee,1,cup,false,false
+3,lunch,veg pulao,1,plate,false,false
+3,lunch,curd,1,katori,false,false
+3,snacks,sprouts salad,1,bowl,false,false
+3,dinner,roti,2,piece,false,false
+3,dinner,palak paneer,1,bowl,false,false
+4,breakfast,upma,1,bowl,false,false
+4,breakfast,orange juice,1,glass,false,false
+4,lunch,white rice,1,cup,false,false
+4,lunch,sambar,1,cup,false,false
+4,lunch,egg,2,piece,false,false
+4,snacks,parle-g biscuits,4,piece,false,false
+4,snacks,chai with sugar,1,cup,false,false
+4,dinner,chapati,2,piece,false,false
+4,dinner,chole,1,bowl,false,false
+5,breakfast,plain dosa,2,piece,false,false
+5,breakfast,sambar,1,cup,false,false
+5,lunch,chicken biryani,1,plate,false,false
+5,lunch,curd,1,katori,false,false
+5,snacks,samosa,1,piece,false,false
+5,snacks,chai with sugar,1,cup,false,false
+5,dinner,chapati,2,piece,false,false
+5,dinner,mixed vegetable curry,1,bowl,false,false
+6,breakfast,aloo paratha,1,piece,false,false
+6,breakfast,curd,1,katori,false,false
+6,breakfast,chai without sugar,1,cup,false,false
+6,lunch,white rice,1,plate,false,false
+6,lunch,dal makhani,1,bowl,false,false
+6,lunch,green salad,1,bowl,false,false
+6,snacks,papaya,1,cup,false,false
+6,dinner,roti,2,piece,false,false
+6,dinner,egg curry,1,bowl,false,false

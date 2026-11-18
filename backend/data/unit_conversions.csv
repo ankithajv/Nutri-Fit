@@ -1,0 +1,110 @@
+unit,food_pattern,grams
+piece,idli,40
+piece,dosa,80
+piece,plain dosa,80
+piece,masala dosa,150
+piece,chapati,30
+piece,roti,30
+piece,paratha,60
+piece,aloo paratha,100
+piece,egg,55
+piece,samosa,80
+piece,vada,40
+piece,medu vada,40
+piece,batata vada,60
+piece,aloo tikki,80
+piece,gulab jamun,50
+piece,rasgulla,50
+piece,besan ladoo,45
+piece,kaju katli,20
+piece,banana,118
+piece,apple,180
+piece,orange,130
+piece,guava,100
+cup,cooked rice,180
+cup,rice,180
+cup,white rice,180
+cup,brown rice,180
+cup,dal,240
+cup,toor dal,240
+cup,moong dal,240
+cup,masoor dal,240
+cup,chana dal,240
+cup,milk,240
+cup,whole milk,240
+cup,toned milk,240
+cup,curd,240
+cup,yogurt,240
+cup,tea,180
+cup,chai,180
+cup,chai with sugar,180
+cup,chai without sugar,180
+cup,coffee,180
+cup,filter coffee,180
+cup,sambar,240
+cup,oats,150
+cup,green tea,200
+cup,coconut water,240
+katori,cooked rice,150
+katori,rice,150
+katori,dal,150
+katori,toor dal,150
+katori,curry,150
+katori,curd,120
+katori,yogurt,120
+katori,sambar,150
+katori,sabzi,120
+bowl,rice,200
+bowl,dal,250
+bowl,curry,200
+bowl,salad,100
+bowl,green salad,100
+bowl,poha,150
+bowl,upma,160
+bowl,rajma,200
+bowl,chole,200
+bowl,curd,150
+bowl,sprouts salad,100
+slice,bread,30
+slice,white bread,30
+slice,brown bread,35
+slice,pizza,100
+slice,cheddar cheese,28
+tablespoon,ghee,15
+tablespoon,oil,14
+tablespoon,butter,14
+tablespoon,peanut butter,16
+teaspoon,sugar,4
+teaspoon,salt,6
+teaspoon,ghee,5
+teaspoon,butter,5
+plate,rice,300
+plate,biryani,350
+plate,chicken biryani,350
+plate,veg pulao,250
+plate,pav bhaji,250
+plate,chole bhature,300
+plate,bhel puri,120
+plate,egg bhurji,150
+glass,milk,240
+glass,buttermilk,240
+glass,lassi,250
+glass,sweet lassi,250
+glass,salted lassi,250
+glass,orange juice,240
+glass,lemon water,250
+can,cola,330
+can,diet cola,330
+scoop,ice cream,75
+scoop,vanilla ice cream,75
+bar,milk chocolate,40
+bar,dark chocolate,40
+pack,maggi noodles,70
+packet,potato chips,30
+handful,almonds,28
+handful,walnuts,28
+handful,cashews,28
+g,,1
+gram,,1
+grams,,1
+ml,,1

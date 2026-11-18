@@ -1,0 +1,136 @@
+id,name,category,tags,kcal_100g,protein_100g,carbs_100g,fat_100g,fibre_100g,sugar_100g,sodium_100g,source,confidence,serving_size_g,serving_description
+1,white rice,Grains,"[""whole_grain"",""vegetarian"",""vegan""]",130,2.7,28.2,0.3,0.4,0.1,1.0,IFCT_2017,0.95,180,1 cup cooked
+2,brown rice,Grains,"[""whole_grain"",""high_fibre"",""vegetarian"",""vegan""]",111,2.6,23.0,0.9,1.8,0.4,5.0,IFCT_2017,0.95,180,1 cup cooked
+3,chapati,Grains,"[""whole_grain"",""vegetarian"",""vegan""]",297,11.0,60.0,3.7,11.0,1.5,150.0,IFCT_2017,0.95,30,1 piece
+4,roti,Grains,"[""whole_grain"",""vegetarian"",""vegan""]",297,11.0,60.0,3.7,11.0,1.5,150.0,IFCT_2017,0.95,30,1 piece
+5,paratha,Grains,"[""vegetarian""]",320,8.0,50.0,11.0,6.0,2.0,240.0,curated_estimate,0.90,60,1 piece
+6,aloo paratha,Grains,"[""vegetarian""]",290,6.5,45.0,10.0,4.5,1.8,320.0,curated_estimate,0.90,100,1 paratha
+7,poha,Grains,"[""vegetarian"",""vegan""]",180,3.2,32.0,4.5,2.1,1.2,280.0,curated_estimate,0.90,150,1 bowl
+8,upma,Grains,"[""vegetarian"",""vegan""]",192,4.0,34.0,5.0,2.5,1.5,310.0,curated_estimate,0.90,160,1 bowl
+9,idli,South Indian,"[""fermented"",""vegetarian"",""vegan""]",132,4.5,26.0,0.8,1.8,0.5,180.0,IFCT_2017,0.95,40,1 piece
+10,plain dosa,South Indian,"[""fermented"",""vegetarian"",""vegan""]",168,3.9,29.0,3.7,1.5,0.6,210.0,IFCT_2017,0.95,80,1 piece
+11,masala dosa,South Indian,"[""fermented"",""vegetarian""]",210,4.5,35.0,6.2,3.0,1.8,380.0,curated_estimate,0.90,150,1 dosa
+12,uttapam,South Indian,"[""fermented"",""vegetarian""]",185,4.8,32.0,4.5,2.8,1.2,250.0,curated_estimate,0.90,120,1 piece
+13,sambar,South Indian,"[""legume"",""vegetable"",""vegetarian"",""vegan""]",75,3.2,11.0,2.1,3.0,2.0,350.0,curated_estimate,0.90,240,1 cup
+14,rasam,South Indian,"[""beverage"",""vegetarian"",""vegan""]",42,1.2,6.5,1.4,1.0,1.5,320.0,curated_estimate,0.90,200,1 bowl
+15,coconut chutney,South Indian,"[""vegetarian"",""vegan""]",230,2.8,8.5,22.0,3.5,2.1,280.0,curated_estimate,0.90,30,2 tbsp
+16,toor dal,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",105,6.8,15.5,1.8,4.2,0.8,260.0,IFCT_2017,0.95,150,1 katori
+17,moong dal,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",98,7.2,14.8,1.2,3.8,0.6,240.0,IFCT_2017,0.95,150,1 katori
+18,masoor dal,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",110,7.6,16.0,1.5,4.0,0.7,250.0,IFCT_2017,0.95,150,1 katori
+19,chana dal,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",130,8.2,18.0,2.5,5.1,1.0,270.0,IFCT_2017,0.95,150,1 katori
+20,rajma,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",127,8.7,19.2,2.0,6.4,1.2,320.0,IFCT_2017,0.95,200,1 bowl
+21,chole,Lentils,"[""legume"",""high_protein"",""vegetarian"",""vegan""]",145,7.8,21.0,4.2,5.8,1.5,380.0,curated_estimate,0.90,200,1 bowl
+22,dal makhani,Lentils,"[""legume"",""dairy"",""vegetarian""]",180,6.0,16.0,11.0,4.5,1.8,420.0,curated_estimate,0.90,200,1 bowl
+23,potato sabzi,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",115,2.1,18.5,4.0,2.3,1.5,290.0,curated_estimate,0.90,150,1 katori
+24,boiled potato,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",87,1.9,20.1,0.1,1.8,0.9,4.0,USDA,0.95,100,1 medium
+25,onion,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",40,1.1,9.3,0.1,1.7,4.2,4.0,USDA,0.95,80,1 medium
+26,tomato,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",18,0.9,3.9,0.2,1.2,2.6,5.0,USDA,0.95,90,1 medium
+27,palak sabzi,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",70,3.0,5.5,4.2,3.1,1.0,280.0,curated_estimate,0.90,150,1 katori
+28,spinach,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",23,2.9,3.6,0.4,2.2,0.4,79.0,USDA,0.95,50,1 cup raw
+29,cauliflower sabzi,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",65,2.5,6.8,3.5,2.8,2.1,260.0,curated_estimate,0.90,150,1 katori
+30,baingan bharta,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",85,2.0,8.0,5.5,3.5,3.0,270.0,curated_estimate,0.90,150,1 katori
+31,carrot,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",41,0.9,9.6,0.2,2.8,4.7,69.0,USDA,0.95,60,1 carrot
+32,green peas,Vegetables,"[""vegetable"",""legume"",""vegetarian"",""vegan""]",81,5.4,14.5,0.4,5.7,5.7,5.0,USDA,0.95,100,1/2 cup
+33,french beans,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",31,1.8,7.0,0.2,2.7,3.3,6.0,USDA,0.95,100,1 cup
+34,bhindi masala,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",95,2.4,8.5,6.0,3.8,2.0,280.0,curated_estimate,0.90,150,1 katori
+35,mixed vegetable curry,Vegetables,"[""vegetable"",""vegetarian"",""vegan""]",85,2.6,9.5,4.5,3.2,2.8,310.0,curated_estimate,0.90,180,1 bowl
+36,paneer,Dairy,"[""dairy"",""high_protein"",""vegetarian""]",296,18.3,4.5,22.0,0.0,2.0,25.0,IFCT_2017,0.95,100,100g
+37,palak paneer,Protein,"[""dairy"",""high_protein"",""vegetable"",""vegetarian""]",160,8.5,6.0,12.0,2.8,1.8,340.0,curated_estimate,0.90,200,1 bowl
+38,paneer butter masala,Protein,"[""dairy"",""high_protein"",""vegetarian""]",240,9.0,9.5,19.0,2.1,4.5,410.0,curated_estimate,0.90,200,1 bowl
+39,egg,Protein,"[""high_protein""]",143,12.6,0.7,9.5,0.0,0.4,142.0,USDA,0.98,55,1 piece boiled
+40,egg curry,Protein,"[""high_protein""]",155,9.5,5.5,10.5,1.5,1.8,360.0,curated_estimate,0.90,200,1 bowl
+41,egg bhurji,Protein,"[""high_protein""]",175,11.2,4.0,12.8,1.2,1.5,390.0,curated_estimate,0.90,150,1 plate
+42,chicken breast,Protein,"[""high_protein""]",165,31.0,0.0,3.6,0.0,0.0,74.0,USDA,0.98,120,1 piece cooked
+43,chicken curry,Protein,"[""high_protein""]",180,16.5,4.5,11.0,1.2,1.5,380.0,curated_estimate,0.90,200,1 bowl
+44,butter chicken,Protein,"[""high_protein"",""dairy""]",225,15.0,7.0,15.5,1.5,3.5,430.0,curated_estimate,0.90,200,1 bowl
+45,chicken biryani,Grains,"[""high_protein""]",195,10.5,23.0,7.2,1.8,1.0,390.0,curated_estimate,0.90,350,1 plate
+46,fish curry,Protein,"[""high_protein""]",140,15.0,3.5,7.5,0.8,0.8,360.0,curated_estimate,0.90,200,1 bowl
+47,tofu,Protein,"[""high_protein"",""vegan"",""vegetarian""]",76,8.1,1.9,4.8,0.3,0.5,7.0,USDA,0.95,100,100g
+48,whole milk,Dairy,"[""dairy"",""vegetarian""]",61,3.2,4.8,3.3,0.0,5.1,43.0,IFCT_2017,0.95,240,1 cup
+49,toned milk,Dairy,"[""dairy"",""vegetarian""]",54,3.1,4.7,2.1,0.0,4.8,45.0,IFCT_2017,0.95,240,1 cup
+50,curd,Dairy,"[""dairy"",""fermented"",""vegetarian""]",60,3.5,4.7,3.3,0.0,4.5,50.0,IFCT_2017,0.95,150,1 katori
+51,greek yogurt,Dairy,"[""dairy"",""high_protein"",""vegetarian""]",97,10.0,3.6,5.0,0.0,3.6,36.0,USDA,0.95,150,1 cup
+52,buttermilk,Dairy,"[""dairy"",""beverage"",""vegetarian""]",35,2.0,3.5,1.2,0.0,3.0,120.0,IFCT_2017,0.95,240,1 glass
+53,ghee,Dairy,"[""dairy"",""vegetarian""]",900,0.0,0.0,100.0,0.0,0.0,2.0,IFCT_2017,0.98,15,1 tbsp
+54,butter,Dairy,"[""dairy"",""vegetarian""]",717,0.9,0.1,81.1,0.0,0.1,643.0,USDA,0.98,14,1 tbsp
+55,cheddar cheese,Dairy,"[""dairy"",""high_protein"",""vegetarian""]",402,25.0,1.3,33.0,0.0,0.5,621.0,USDA,0.95,28,1 slice
+56,samosa,Snacks,"[""junk"",""fried"",""street_food"",""vegetarian""]",262,4.5,32.0,13.5,3.0,1.8,420.0,curated_estimate,0.90,80,1 piece
+57,medu vada,Snacks,"[""fried"",""south_indian"",""vegetarian"",""vegan""]",275,7.0,28.0,15.0,4.0,0.5,380.0,curated_estimate,0.90,40,1 piece
+58,batata vada,Snacks,"[""fried"",""street_food"",""vegetarian""]",240,4.0,29.0,12.0,2.5,1.5,410.0,curated_estimate,0.90,60,1 piece
+59,vegetable pakoda,Snacks,"[""junk"",""fried"",""street_food"",""vegetarian""]",280,5.5,27.0,17.0,3.2,1.8,440.0,curated_estimate,0.90,50,2 pieces
+60,onion pakoda,Snacks,"[""junk"",""fried"",""street_food"",""vegetarian""]",295,5.0,29.0,18.0,3.5,2.5,450.0,curated_estimate,0.90,50,2 pieces
+61,namkeen,Snacks,"[""junk"",""fried"",""processed"",""vegetarian""]",520,8.5,52.0,32.0,4.0,2.0,780.0,curated_estimate,0.90,30,1 small bowl
+62,mathri,Snacks,"[""junk"",""fried"",""processed"",""vegetarian""]",480,7.0,55.0,26.0,3.0,1.0,550.0,curated_estimate,0.90,40,2 pieces
+63,pav bhaji,Street food,"[""street_food"",""vegetarian""]",185,4.0,24.0,8.5,3.2,3.5,480.0,curated_estimate,0.90,250,1 plate
+64,chole bhature,Street food,"[""junk"",""fried"",""street_food"",""vegetarian""]",270,6.5,33.0,13.0,4.2,2.5,490.0,curated_estimate,0.90,300,1 plate
+65,aloo tikki,Street food,"[""fried"",""street_food"",""vegetarian""]",220,3.5,28.0,11.0,3.0,2.0,410.0,curated_estimate,0.90,80,1 piece
+66,bhel puri,Street food,"[""street_food"",""vegetarian"",""vegan""]",160,3.8,29.0,3.5,3.2,5.5,520.0,curated_estimate,0.90,120,1 plate
+67,pani puri,Street food,"[""street_food"",""vegetarian"",""vegan""]",150,2.5,28.0,3.0,2.0,3.0,550.0,curated_estimate,0.90,120,6 pieces
+68,sev puri,Street food,"[""street_food"",""fried"",""vegetarian""]",230,4.2,32.0,10.0,3.0,4.5,560.0,curated_estimate,0.90,130,1 plate
+69,dahi vada,Street food,"[""street_food"",""dairy"",""vegetarian""]",175,5.5,22.0,7.5,2.5,7.0,380.0,curated_estimate,0.90,150,2 pieces
+70,pizza,Junk/fast food,"[""junk"",""processed"",""dairy""]",266,11.4,33.3,9.8,2.3,3.6,598.0,USDA,0.95,100,1 slice
+71,veg burger,Junk/fast food,"[""junk"",""processed"",""vegetarian""]",245,6.5,34.0,9.5,3.0,4.5,520.0,curated_estimate,0.90,160,1 burger
+72,chicken burger,Junk/fast food,"[""junk"",""processed"",""high_protein""]",260,13.5,27.0,11.5,1.8,4.0,580.0,curated_estimate,0.90,180,1 burger
+73,french fries,Junk/fast food,"[""junk"",""fried"",""processed"",""vegan""]",312,3.4,41.4,14.7,3.8,0.3,210.0,USDA,0.95,100,1 medium order
+74,potato chips,Junk/fast food,"[""junk"",""fried"",""processed"",""vegan""]",536,7.0,53.0,34.0,4.4,0.3,530.0,USDA,0.95,30,1 packet
+75,milk chocolate,Junk/fast food,"[""junk"",""sugary"",""sweet"",""dairy""]",535,7.6,59.4,29.7,3.4,51.5,79.0,USDA,0.95,40,1 bar
+76,dark chocolate,Junk/fast food,"[""sweet""]",598,7.8,45.9,42.6,10.9,24.0,20.0,USDA,0.95,30,3 squares
+77,vanilla ice cream,Junk/fast food,"[""junk"",""sugary"",""sweet"",""dairy""]",207,3.5,23.6,11.0,0.7,21.3,80.0,USDA,0.95,75,1 scoop
+78,chai with sugar,Beverages,"[""beverage"",""sugary"",""dairy"",""vegetarian""]",65,1.8,9.5,2.1,0.0,8.5,30.0,curated_estimate,0.90,180,1 cup
+79,chai without sugar,Beverages,"[""beverage"",""dairy"",""vegetarian""]",38,1.8,3.2,2.0,0.0,3.0,30.0,curated_estimate,0.90,180,1 cup
+80,filter coffee,Beverages,"[""beverage"",""dairy"",""vegetarian""]",70,2.0,10.0,2.4,0.0,9.0,35.0,curated_estimate,0.90,180,1 cup
+81,black coffee,Beverages,"[""beverage"",""vegan""]",2,0.3,0.0,0.0,0.0,0.0,2.0,USDA,0.98,200,1 mug
+82,green tea,Beverages,"[""beverage"",""vegan""]",1,0.2,0.0,0.0,0.0,0.0,1.0,USDA,0.98,200,1 cup
+83,sweet lassi,Beverages,"[""beverage"",""sugary"",""dairy"",""vegetarian""]",115,2.8,17.5,3.6,0.0,16.0,45.0,curated_estimate,0.90,250,1 glass
+84,salted lassi,Beverages,"[""beverage"",""dairy"",""vegetarian""]",55,3.0,4.5,2.5,0.0,4.0,220.0,curated_estimate,0.90,250,1 glass
+85,coconut water,Beverages,"[""beverage"",""fruit"",""vegan""]",19,0.7,3.7,0.2,1.1,2.6,105.0,USDA,0.98,240,1 cup
+86,orange juice,Beverages,"[""beverage"",""fruit"",""sugary"",""vegan""]",45,0.7,10.4,0.2,0.2,8.4,1.0,USDA,0.95,240,1 glass
+87,cola,Beverages,"[""junk"",""beverage"",""sugary"",""processed""]",42,0.0,10.6,0.0,0.0,10.6,4.0,USDA,0.98,330,1 can
+88,diet cola,Beverages,"[""beverage"",""processed""]",0,0.0,0.0,0.0,0.0,0.0,12.0,USDA,0.98,330,1 can
+89,gulab jamun,Sweets,"[""junk"",""sugary"",""sweet"",""fried"",""dairy""]",325,4.0,52.0,12.0,0.8,42.0,120.0,curated_estimate,0.90,50,1 piece
+90,rasgulla,Sweets,"[""sugary"",""sweet"",""dairy""]",186,4.0,38.0,1.5,0.2,34.0,40.0,curated_estimate,0.90,50,1 piece
+91,kheer,Sweets,"[""sugary"",""sweet"",""dairy""]",145,3.8,22.0,4.5,0.5,17.0,55.0,curated_estimate,0.90,150,1 katori
+92,sooji halwa,Sweets,"[""sugary"",""sweet"",""vegetarian""]",330,3.5,48.0,14.5,1.2,32.0,45.0,curated_estimate,0.90,100,1 bowl
+93,gajar ka halwa,Sweets,"[""sugary"",""sweet"",""dairy""]",260,4.2,36.0,11.5,2.5,28.0,75.0,curated_estimate,0.90,120,1 bowl
+94,besan ladoo,Sweets,"[""sugary"",""sweet"",""vegetarian""]",450,7.5,52.0,24.0,3.2,38.0,30.0,curated_estimate,0.90,45,1 piece
+95,kaju katli,Sweets,"[""sugary"",""sweet"",""vegetarian""]",420,8.0,50.0,21.0,2.0,39.0,20.0,curated_estimate,0.90,20,1 piece
+96,banana,Fruits,"[""fruit"",""whole_grain"",""vegan""]",89,1.1,22.8,0.3,2.6,12.2,1.0,USDA,0.98,118,1 medium
+97,apple,Fruits,"[""fruit"",""vegan""]",52,0.3,13.8,0.2,2.4,10.4,1.0,USDA,0.98,180,1 medium
+98,mango,Fruits,"[""fruit"",""vegan""]",60,0.8,15.0,0.4,1.6,13.7,1.0,USDA,0.98,150,1 cup sliced
+99,orange,Fruits,"[""fruit"",""vegan""]",47,0.9,11.8,0.1,2.4,9.4,0.0,USDA,0.98,130,1 medium
+100,watermelon,Fruits,"[""fruit"",""vegan""]",30,0.6,7.6,0.2,0.4,6.2,1.0,USDA,0.98,280,1 wedge
+101,grapes,Fruits,"[""fruit"",""vegan""]",69,0.7,18.1,0.2,0.9,15.5,2.0,USDA,0.98,100,1 cup
+102,papaya,Fruits,"[""fruit"",""vegan""]",43,0.5,10.8,0.3,1.7,7.8,8.0,USDA,0.98,140,1 cup cubes
+103,guava,Fruits,"[""fruit"",""high_fibre"",""vegan""]",68,2.6,14.3,1.0,5.4,8.9,2.0,USDA,0.98,100,1 medium
+104,pomegranate,Fruits,"[""fruit"",""vegan""]",83,1.7,18.7,1.2,4.0,13.7,3.0,USDA,0.98,100,1/2 cup arils
+105,parle-g biscuits,Packaged,"[""junk"",""sugary"",""processed""]",460,6.5,77.0,14.0,2.0,26.0,320.0,curated_estimate,0.92,25,4 biscuits
+106,marie biscuit,Packaged,"[""processed""]",430,7.5,75.0,11.0,2.5,20.0,360.0,curated_estimate,0.92,20,4 biscuits
+107,maggi noodles,Packaged,"[""junk"",""processed""]",427,8.0,63.5,15.7,3.6,2.2,980.0,curated_estimate,0.92,70,1 pack cooked
+108,white bread,Packaged,"[""processed""]",265,9.0,49.0,3.2,2.7,5.0,490.0,USDA,0.95,30,1 slice
+109,brown bread,Packaged,"[""whole_grain"",""processed""]",250,10.0,45.0,3.5,6.0,4.0,450.0,USDA,0.95,35,1 slice
+110,oats,Grains,"[""whole_grain"",""high_fibre"",""vegan""]",389,16.9,66.3,6.9,10.6,0.0,2.0,USDA,0.98,40,1 bowl cooked
+111,cornflakes,Packaged,"[""processed""]",357,7.5,84.0,0.5,3.0,10.0,720.0,USDA,0.95,30,1 cup
+112,peanut butter,Protein,"[""high_protein"",""vegan""]",588,25.0,20.0,50.0,6.0,9.0,430.0,USDA,0.95,32,2 tbsp
+113,almonds,Snacks,"[""high_protein"",""vegan""]",579,21.2,21.6,49.9,12.5,4.4,1.0,USDA,0.98,28,1 handful
+114,walnuts,Snacks,"[""vegan""]",654,15.2,13.7,65.2,6.7,2.6,2.0,USDA,0.98,28,1 handful
+115,cashews,Snacks,"[""vegan""]",553,18.2,30.2,43.8,3.3,5.9,12.0,USDA,0.98,28,1 handful
+116,cucumber,Vegetables,"[""vegetable"",""vegan""]",15,0.7,3.6,0.1,0.5,1.7,2.0,USDA,0.98,100,1 cup sliced
+117,green salad,Vegetables,"[""vegetable"",""vegan""]",20,1.2,4.0,0.2,1.8,1.8,25.0,curated_estimate,0.90,100,1 bowl
+118,veg pulao,Grains,"[""vegetarian""]",160,3.5,28.0,3.8,2.2,1.5,310.0,curated_estimate,0.90,250,1 plate
+119,jeera rice,Grains,"[""vegetarian"",""vegan""]",150,2.8,27.0,3.2,0.8,0.2,180.0,curated_estimate,0.90,200,1 bowl
+120,curd rice,South Indian,"[""dairy"",""fermented"",""vegetarian""]",140,4.0,22.0,3.8,0.8,1.8,240.0,curated_estimate,0.90,200,1 bowl
+121,ragi mudde,Grains,"[""whole_grain"",""high_fibre"",""vegan""]",120,2.8,25.0,0.5,3.6,0.2,20.0,IFCT_2017,0.95,150,1 ball
+122,ragi roti,Grains,"[""whole_grain"",""high_fibre"",""vegan""]",210,5.2,42.0,2.5,6.5,0.5,160.0,curated_estimate,0.90,60,1 piece
+123,akki roti,Grains,"[""vegetarian"",""vegan""]",225,4.0,46.0,3.0,2.8,0.5,190.0,curated_estimate,0.90,70,1 piece
+124,bisi bele bath,South Indian,"[""legume"",""vegetarian""]",155,4.5,25.0,4.2,2.8,1.5,340.0,curated_estimate,0.90,250,1 plate
+125,lemon rice,South Indian,"[""vegetarian"",""vegan""]",165,2.9,28.0,4.8,1.2,0.8,290.0,curated_estimate,0.90,200,1 plate
+126,tomato rice,South Indian,"[""vegetarian"",""vegan""]",158,2.8,27.0,4.5,1.5,1.8,310.0,curated_estimate,0.90,200,1 plate
+127,paneer bhurji,Protein,"[""dairy"",""high_protein"",""vegetarian""]",210,12.5,5.0,16.0,1.5,2.0,380.0,curated_estimate,0.90,150,1 katori
+128,paneer tikka,Protein,"[""dairy"",""high_protein"",""vegetarian""]",230,15.0,6.0,16.5,1.8,2.5,420.0,curated_estimate,0.90,150,4 pieces
+129,tandoori chicken,Protein,"[""high_protein""]",190,24.0,3.0,9.0,0.8,1.0,460.0,curated_estimate,0.92,150,1 leg quarter
+130,fish fry,Protein,"[""fried"",""high_protein""]",215,19.0,6.0,13.0,0.5,0.5,440.0,curated_estimate,0.90,100,1 piece
+131,mutton curry,Protein,"[""high_protein""]",240,18.0,3.0,17.5,0.5,0.8,410.0,curated_estimate,0.90,200,1 bowl
+132,soya chunks curry,Protein,"[""high_protein"",""vegan"",""vegetarian""]",140,16.0,11.0,3.5,4.8,1.5,320.0,curated_estimate,0.90,180,1 bowl
+133,masala tea,Beverages,"[""beverage"",""sugary"",""dairy"",""vegetarian""]",68,1.9,10.0,2.2,0.2,9.0,32.0,curated_estimate,0.90,180,1 cup
+134,lemon water,Beverages,"[""beverage"",""vegan""]",12,0.2,2.8,0.0,0.2,1.5,5.0,USDA,0.98,250,1 glass
+135,sprouts salad,Snacks,"[""high_protein"",""high_fibre"",""vegan""]",78,5.8,13.0,0.8,4.2,1.8,30.0,curated_estimate,0.95,100,1 bowl
