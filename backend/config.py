@@ -19,9 +19,17 @@ class Settings:
     DB_USER: str = os.getenv("DB_USER", "root")
     DB_PASSWORD: str = os.getenv("DB_PASSWORD", "Apnaclg@123")
     DB_NAME: str = os.getenv("DB_NAME", "nutriai")
+    _CUSTOM_DATABASE_URL: str = os.getenv("DATABASE_URL", "")
 
     @property
     def DATABASE_URL(self) -> str:
+        # If user provides a direct connection string (e.g. cloud MySQL on Aiven/TiDB)
+        if self._CUSTOM_DATABASE_URL:
+            # SQLAlchemy pymysql dialect formatting
+            url = self._CUSTOM_DATABASE_URL
+            if url.startswith("mysql://") and not url.startswith("mysql+pymysql://"):
+                url = url.replace("mysql://", "mysql+pymysql://", 1)
+            return url
         # Quote password to handle special characters like '@'
         safe_password = urllib.parse.quote_plus(self.DB_PASSWORD) if self.DB_PASSWORD else ""
         if safe_password:

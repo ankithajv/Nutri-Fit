@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -50,9 +51,10 @@ try:
     logger.info("Successfully connected to MySQL database.")
 except Exception as e:
     logger.error(f"Failed to connect to MySQL database at {settings.DATABASE_URL}: {e}")
-    logger.warning("Falling back to local SQLite database 'nutriai.db' for development stability.")
+    sqlite_path = "/tmp/nutriai.db" if os.environ.get("VERCEL") else "./nutriai.db"
+    logger.warning(f"Falling back to SQLite database '{sqlite_path}' for stability.")
     engine = create_engine(
-        "sqlite:///./nutriai.db",
+        f"sqlite:///{sqlite_path}",
         connect_args={"check_same_thread": False},
         echo=False
     )
